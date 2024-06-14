@@ -1,0 +1,50 @@
+/* 基础样式 */  
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 20px;  
+}  
+  
+header, main, section {  
+    margin-bottom: 20px;  
+}  
+  
+h1, h2 {  
+    text-align: center;  
+}  
+  
+/* 特定样式 */  
+#welcome {  
+    background-color: #f2f2f2;  
+    padding: 20px;  
+}  
+  
+#wisdom, #messages, #closing {  
+    border: 1px solid #ddd;  
+    padding: 20px;  
+}  
+  
+/* 为按钮和消息添加样式 */  
+#greetButton {  
+    display: block;  
+    margin: 10px auto;  
+    padding: 10px 20px;  
+    background-color: #4CAF50; /* Green */  
+    border: none;  
+    color: white;  
+    text-align: center;  
+    text-decoration: none;  
+    display: inline-block;  
+    font-size: 16px;  
+    border-radius: 4px;  
+    cursor: pointer;  
+}  
+  
+#greetButton:hover {  
+    background-color: #45a049; /* Green darken */  
+}  
+  
+#greetingMessage {  
+    margin-top: 10px;  
+    font-weight: bold;  
+}
